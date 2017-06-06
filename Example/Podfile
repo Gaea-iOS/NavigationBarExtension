@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NavigationBarExtension_Example' do
+  pod 'NavigationBarExtension', :path => '../'
+
+  target 'NavigationBarExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
