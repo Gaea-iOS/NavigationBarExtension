@@ -1,0 +1,6 @@
+framework module Pods_NavigationBarExtension_Example {
+  umbrella header "Pods-NavigationBarExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

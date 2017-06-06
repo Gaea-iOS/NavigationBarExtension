@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BFD0D7E1EE64AB400F72848 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD0D7C1EE64AB400F72848 /* TableViewController.swift */; };
+		1BFD0D7F1EE64AB400F72848 /* UIImage+FromColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD0D7D1EE64AB400F72848 /* UIImage+FromColor.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,7 +32,9 @@
 /* Begin PBXFileReference section */
 		03486DB1C8DADD2955C4734E /* Pods_NavigationBarExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		185C03E263212EC89D7508E3 /* Pods-NavigationBarExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarExtension_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarExtension_Tests/Pods-NavigationBarExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		34F5CE0D34A4D5DDFA99CB4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1BFD0D7C1EE64AB400F72848 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1BFD0D7D1EE64AB400F72848 /* UIImage+FromColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+FromColor.swift"; sourceTree = "<group>"; };
+		34F5CE0D34A4D5DDFA99CB4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4054054A402F0F771D398E2F /* Pods-NavigationBarExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarExtension_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarExtension_Example/Pods-NavigationBarExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5CF62F45634B95364C8BAC60 /* Pods-NavigationBarExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarExtension_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarExtension_Example/Pods-NavigationBarExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NavigationBarExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +47,8 @@
 		607FACE51AFB9204008FA782 /* NavigationBarExtension_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarExtension_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7B565C5B3174030A66B3AAC1 /* NavigationBarExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NavigationBarExtension.podspec; path = ../NavigationBarExtension.podspec; sourceTree = "<group>"; };
-		878C784F3E500E46D48409A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7B565C5B3174030A66B3AAC1 /* NavigationBarExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NavigationBarExtension.podspec; path = ../NavigationBarExtension.podspec; sourceTree = "<group>"; };
+		878C784F3E500E46D48409A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC5FDB88B8E9F5B9E525E280 /* Pods_NavigationBarExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBarExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCACBC7F49F338F88DB92635 /* Pods-NavigationBarExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBarExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NavigationBarExtension_Tests/Pods-NavigationBarExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +108,8 @@
 		607FACD21AFB9204008FA782 /* Example for NavigationBarExtension */ = {
 			isa = PBXGroup;
 			children = (
+				1BFD0D7C1EE64AB400F72848 /* TableViewController.swift */,
+				1BFD0D7D1EE64AB400F72848 /* UIImage+FromColor.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -362,6 +368,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				1BFD0D7F1EE64AB400F72848 /* UIImage+FromColor.swift in Sources */,
+				1BFD0D7E1EE64AB400F72848 /* TableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

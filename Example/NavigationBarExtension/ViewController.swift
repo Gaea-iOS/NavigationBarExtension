@@ -1,24 +1,26 @@
 //
 //  ViewController.swift
-//  NavigationBarExtension
+//  UINavigationBarStyle
 //
-//  Created by jerry on 06/06/2017.
-//  Copyright (c) 2017 jerry. All rights reserved.
+//  Created by slkai on 04/06/2017.
+//  Copyright (c) 2017 slkai. All rights reserved.
 //
 
 import UIKit
+import NavigationBarExtension
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //navigationBarBackgroundImage = UIImage.from(UIColor.blueColor())
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+//        index = 1
     }
-
 }
 
