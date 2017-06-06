@@ -5,6 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/NavigationBarExtension.svg?style=flat)](http://cocoapods.org/pods/NavigationBarExtension)
 [![Platform](https://img.shields.io/cocoapods/p/NavigationBarExtension.svg?style=flat)](http://cocoapods.org/pods/NavigationBarExtension)
 
+
+## Have a peek
+
+### UINavigationBarStyle
+Custom navigation bar style between different view controller seperately
+
+
+![image](http://onlwuthew.bkt.clouddn.com/gifs/20170330-110835.gif)  
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
