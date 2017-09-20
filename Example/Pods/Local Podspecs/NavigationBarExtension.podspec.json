@@ -1,19 +1,19 @@
 {
   "name": "NavigationBarExtension",
-  "version": "0.1.0",
-  "summary": "A short description of NavigationBarExtension.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/jerry/NavigationBarExtension",
+  "version": "0.4.0",
+  "summary": "Custom navigation bar style between different view controller seperately.",
+  "description": "Custom navigation bar style between different view controller seperately。",
+  "homepage": "https://github.com/Gaea-iOS/NavigationBarExtension",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "jerry": "445242970@qq.com"
+    "wangxiaotao": "445242970@qq.com"
   },
   "source": {
-    "git": "https://github.com/jerry/NavigationBarExtension.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Gaea-iOS/NavigationBarExtension.git",
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"

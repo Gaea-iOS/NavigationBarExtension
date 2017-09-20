@@ -13,7 +13,7 @@ extension UIViewController {
     public struct DefaultValue {
         public static var navigationBarBackgroundAlpha: CGFloat = 1.0
         public static var navigationBarTintColor: UIColor? = nil
-        public static var navigationBarTitleTextAttributes: [String : Any]? = nil
+        public static var navigationBarTitleTextAttributes: [NSAttributedStringKey : Any]? = nil
         public static var navigationBarBackgroundImage: UIImage? = nil
         public static var navigationBarShadowImageHidden: Bool = false
     }
@@ -53,9 +53,9 @@ extension UIViewController {
         }
     }
     
-    public var navigationBarTitleTextAttributes: [String : Any]? {
+    public var navigationBarTitleTextAttributes: [NSAttributedStringKey : Any]? {
         get {
-            if let attributes = objc_getAssociatedObject(self, &NavigationBarAssociatedKeys.navigationBarTitleTextAttributes) as? [String : Any] {
+            if let attributes = objc_getAssociatedObject(self, &NavigationBarAssociatedKeys.navigationBarTitleTextAttributes) as? [NSAttributedStringKey : Any] {
                 return attributes
             }else {
                 return DefaultValue.navigationBarTitleTextAttributes

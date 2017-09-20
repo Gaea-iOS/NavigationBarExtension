@@ -18,9 +18,7 @@ extension UINavigationController {
         interactivePopGestureRecognizer?.addTarget(self, action: #selector(action))
     }
     
-    open override class func initialize() {
-        
-        super.initialize()
+    open class func swizzle() {
         
         guard self == UINavigationController.self else { return }
         
@@ -41,7 +39,7 @@ extension UINavigationController {
             let originalMethod = class_getInstanceMethod(self, $0)
             let swizzledSelector = Selector("swizzled_"+$0.description)
             let swizzledMethod = class_getInstanceMethod(self, swizzledSelector)
-            method_exchangeImplementations(originalMethod, swizzledMethod)
+            method_exchangeImplementations(originalMethod!, swizzledMethod!)
         }
     }
     

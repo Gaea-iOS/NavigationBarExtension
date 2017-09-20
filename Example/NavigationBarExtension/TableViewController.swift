@@ -22,7 +22,7 @@ class TableViewController: UITableViewController {
         navigationBarBackgroundAlpha = 0
         navigationBarTintColor = UIColor.red
         statusBarStyle = .lightContent
-        navigationBarTitleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        navigationBarTitleTextAttributes = [.foregroundColor: UIColor.white]
         statusBarStyle = .lightContent
         
         navigationBarShadowImageHidden = true
@@ -40,7 +40,7 @@ class TableViewController: UITableViewController {
         } else {
             navigationBarTintColor = UIColor.red
             statusBarStyle = .lightContent
-            navigationBarTitleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+            navigationBarTitleTextAttributes = [.foregroundColor: UIColor.white]
         }
         
     }

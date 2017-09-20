@@ -1,5 +1,5 @@
 PODS:
-  - NavigationBarExtension (0.1.0)
+  - NavigationBarExtension (0.4.0)
 
 DEPENDENCIES:
   - NavigationBarExtension (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  NavigationBarExtension: b01faea967c79495354e5a11f7657bfff7b7d482
+  NavigationBarExtension: 6c46bbbac2e4f33005c3c8c1974282eb99e50a3b
 
 PODFILE CHECKSUM: f3198568381702a1018ddce57ea9f6ece25f72ee
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1
